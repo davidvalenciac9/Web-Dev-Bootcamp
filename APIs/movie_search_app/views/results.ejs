@@ -1,0 +1,10 @@
+<h1>Results Page</h1>
+<!-- El "Search sale del nombre que tiene el array en el API-->
+<ul>
+    <% data["Search"].forEach(function(movie) { %>
+        <li>
+            <%= movie["Title"] %>
+        </li>
+    <% }) %>
+</ul>
+<a href="/">Search Again</a>
